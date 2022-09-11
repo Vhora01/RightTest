@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD35D44F283EBBE400D5BCAB /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD35D44E283EBBE400D5BCAB /* EditVC.swift */; };
 		CD49205E283E20D70077BA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49205D283E20D70077BA0A /* AppDelegate.swift */; };
 		CD492060283E20D70077BA0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49205F283E20D70077BA0A /* SceneDelegate.swift */; };
-		CD492062283E20D80077BA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD492061283E20D80077BA0A /* ViewController.swift */; };
+		CD492062283E20D80077BA0A /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD492061283E20D80077BA0A /* FirstVC.swift */; };
 		CD492065283E20D80077BA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD492063283E20D80077BA0A /* Main.storyboard */; };
 		CD492068283E20D80077BA0A /* CiRightTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD492066283E20D80077BA0A /* CiRightTest.xcdatamodeld */; };
 		CD49206A283E20DB0077BA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD492069283E20DB0077BA0A /* Assets.xcassets */; };
 		CD49206D283E20DB0077BA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD49206B283E20DB0077BA0A /* LaunchScreen.storyboard */; };
+		CD492075283E26880077BA0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD492074283E26870077BA0A /* Extensions.swift */; };
+		CD492077283E28800077BA0A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD492076283E28800077BA0A /* SignInVC.swift */; };
+		CD492079283E2F590077BA0A /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD492078283E2F590077BA0A /* SignInModel.swift */; };
+		CD90EA6C283E77F400BCDC32 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD90EA6B283E77F400BCDC32 /* HomeVC.swift */; };
+		CDEC744C283E37D5004BEE46 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC744B283E37D4004BEE46 /* Alert.swift */; };
+		CDEC744E283E38C8004BEE46 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC744D283E38C8004BEE46 /* SignupVC.swift */; };
+		CDEC7455283E4101004BEE46 /* Emp+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC7453283E4100004BEE46 /* Emp+CoreDataClass.swift */; };
+		CDEC7456283E4101004BEE46 /* Emp+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC7454283E4101004BEE46 /* Emp+CoreDataProperties.swift */; };
+		CDEC7458283E41EB004BEE46 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC7457283E41EB004BEE46 /* DatabaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD35D44E283EBBE400D5BCAB /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
 		CD49205A283E20D70077BA0A /* CiRightTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiRightTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD49205D283E20D70077BA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD49205F283E20D70077BA0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD492061283E20D80077BA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD492061283E20D80077BA0A /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		CD492064283E20D80077BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD492067283E20D80077BA0A /* CiRightTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CiRightTest.xcdatamodel; sourceTree = "<group>"; };
 		CD492069283E20DB0077BA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD49206C283E20DB0077BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD49206E283E20DB0077BA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD492074283E26870077BA0A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CD492076283E28800077BA0A /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CD492078283E2F590077BA0A /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		CD90EA6B283E77F400BCDC32 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CDEC744B283E37D4004BEE46 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		CDEC744D283E38C8004BEE46 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		CDEC7453283E4100004BEE46 /* Emp+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emp+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CDEC7454283E4101004BEE46 /* Emp+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emp+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CDEC7457283E41EB004BEE46 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +80,22 @@
 			children = (
 				CD49205D283E20D70077BA0A /* AppDelegate.swift */,
 				CD49205F283E20D70077BA0A /* SceneDelegate.swift */,
-				CD492061283E20D80077BA0A /* ViewController.swift */,
+				CD492061283E20D80077BA0A /* FirstVC.swift */,
+				CD35D44E283EBBE400D5BCAB /* EditVC.swift */,
+				CD492076283E28800077BA0A /* SignInVC.swift */,
 				CD492063283E20D80077BA0A /* Main.storyboard */,
+				CDEC744D283E38C8004BEE46 /* SignupVC.swift */,
+				CD90EA6B283E77F400BCDC32 /* HomeVC.swift */,
+				CDEC744B283E37D4004BEE46 /* Alert.swift */,
+				CD492078283E2F590077BA0A /* SignInModel.swift */,
+				CD492074283E26870077BA0A /* Extensions.swift */,
 				CD492069283E20DB0077BA0A /* Assets.xcassets */,
 				CD49206B283E20DB0077BA0A /* LaunchScreen.storyboard */,
 				CD49206E283E20DB0077BA0A /* Info.plist */,
 				CD492066283E20D80077BA0A /* CiRightTest.xcdatamodeld */,
+				CDEC7453283E4100004BEE46 /* Emp+CoreDataClass.swift */,
+				CDEC7454283E4101004BEE46 /* Emp+CoreDataProperties.swift */,
+				CDEC7457283E41EB004BEE46 /* DatabaseHelper.swift */,
 			);
 			path = CiRightTest;
 			sourceTree = "<group>";
@@ -141,9 +171,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD492062283E20D80077BA0A /* ViewController.swift in Sources */,
+				CD492075283E26880077BA0A /* Extensions.swift in Sources */,
+				CDEC7456283E4101004BEE46 /* Emp+CoreDataProperties.swift in Sources */,
+				CD492062283E20D80077BA0A /* FirstVC.swift in Sources */,
+				CD492077283E28800077BA0A /* SignInVC.swift in Sources */,
+				CD90EA6C283E77F400BCDC32 /* HomeVC.swift in Sources */,
+				CDEC7458283E41EB004BEE46 /* DatabaseHelper.swift in Sources */,
+				CD35D44F283EBBE400D5BCAB /* EditVC.swift in Sources */,
+				CDEC744E283E38C8004BEE46 /* SignupVC.swift in Sources */,
+				CD492079283E2F590077BA0A /* SignInModel.swift in Sources */,
 				CD49205E283E20D70077BA0A /* AppDelegate.swift in Sources */,
+				CDEC7455283E4101004BEE46 /* Emp+CoreDataClass.swift in Sources */,
 				CD492068283E20D80077BA0A /* CiRightTest.xcdatamodeld in Sources */,
+				CDEC744C283E37D5004BEE46 /* Alert.swift in Sources */,
 				CD492060283E20D70077BA0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +368,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
